@@ -31,6 +31,7 @@ class EmailAddressParser
     b.each do |email|
       if b.include?(email)
         b.remove(email)
+      end
     end 
     b
   end
