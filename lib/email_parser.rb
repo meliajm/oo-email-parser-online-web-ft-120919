@@ -18,7 +18,11 @@ class EmailAddressParser
     #   a = @array_email_addresses.split(' ')
     # end
     # a
-    
+    a = @array_email_addresses.split(' ')
+    a.each do |email|
+      if email.last == ","
+        a << email.
+    end 
     
   end
 
