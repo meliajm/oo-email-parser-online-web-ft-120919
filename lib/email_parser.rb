@@ -21,7 +21,7 @@ class EmailAddressParser
     a = @array_email_addresses.split(' ')
     a.each do |email|
       if email.last == ","
-        a << email.
+        a << email.delete_suffix(",")  
     end 
     
   end
