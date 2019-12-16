@@ -28,13 +28,6 @@ class EmailAddressParser
       end 
     end
     
-    # b.each do |email|
-    #   if b.include?(email)
-    #     b.delete(email)
-    #   end
-    # end 
-    # b
-    
     c = []
     b.each do |email|
       if !c.include?(email)
