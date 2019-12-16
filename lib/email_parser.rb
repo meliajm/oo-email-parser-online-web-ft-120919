@@ -27,7 +27,7 @@ class EmailAddressParser
         b << email
       end 
     end
-    b
+    
     # b.each do |email|
     #   if b.include?(email)
     #     b.delete(email)
