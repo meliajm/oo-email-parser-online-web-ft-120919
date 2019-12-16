@@ -4,8 +4,6 @@
 # or whitespace (' ').
 
       # emails = "avi@test.com, arel@test.com test@avi.com, test@arel.com"
-
-
 class EmailAddressParser
   attr_accessor :array_email_addresses
   
@@ -14,12 +12,14 @@ class EmailAddressParser
   end
   
   def parse
-    if @array_email_addresses.include?(', ')
-      a = @array_email_addresses.split(', ')
-    else
-      a = @array_email_addresses.split(' ')
-    end
-    a
+    # if @array_email_addresses.include?(', ')
+    #   a = @array_email_addresses.split(', ')
+    # else
+    #   a = @array_email_addresses.split(' ')
+    # end
+    # a
+    
+    
   end
 
 
