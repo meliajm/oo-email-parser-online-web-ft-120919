@@ -40,7 +40,8 @@ class EmailAddressParser
       if !c.include?(email)
         c << email
       end
-    end 
+    end
+    c
   end
 
 
