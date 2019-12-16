@@ -35,7 +35,12 @@ class EmailAddressParser
     # end 
     # b
     
-    
+    c = []
+    b.each do |email|
+      if !c.include?(email)
+        c << email
+      end
+    end 
   end
 
 
