@@ -3,6 +3,9 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 
+      # emails = "avi@test.com, arel@test.com test@avi.com, test@arel.com"
+
+
 class EmailAddressParser
   attr_accessor :array_email_addresses
   
