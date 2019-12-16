@@ -22,8 +22,8 @@ class EmailAddressParser
     a.each do |email|
       if email.last == ","
         a << email.delete_suffix(",")  
-    end 
-    
+      end 
+    end
   end
 
 
